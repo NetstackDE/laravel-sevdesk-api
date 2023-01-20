@@ -1,14 +1,19 @@
 {
-    "name": "exlo89/laravel-sevdesk-api",
+    "name": "NetstackDE/laravel-sevdesk-api",
     "description": "A helpful Sevdesk API client for Laravel.",
     "authors": [
+        {
+            "name": "Eric Bortz",
+            "email": "eric.bortz124@gmail.com",
+            "role": "Developer"
+        },
         {
             "name": "Martin Appelmann",
             "email": "hello@martin-appelmann.de",
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/exlo89/laravel-sevdesk-api",
+    "homepage": "https://github.com/NetstackDE/laravel-sevdesk-api",
     "license": "MIT",
     "keywords": [
         "php",
