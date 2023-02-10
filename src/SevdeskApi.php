@@ -5,7 +5,7 @@
  * @copyright 2021 Martin Appelmann
  */
 
-namespace NestackDE\LaravelSevdeskApi;
+namespace NetstackDE\LaravelSevdeskApi;
 
 
 class SevdeskApi
