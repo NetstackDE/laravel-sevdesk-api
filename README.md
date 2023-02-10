@@ -1,10 +1,10 @@
 # laravel sevdesk api
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/exlo89/laravel-sevdesk-api.svg?style=flat-square)](https://packagist.org/packages/exlo89/laravel-sevdesk-api)
-[![Total Downloads](https://img.shields.io/packagist/dt/exlo89/laravel-sevdesk-api.svg?style=flat-square)](https://packagist.org/packages/exlo89/laravel-sevdesk-api)
-[![Test](https://github.com/exlo89/laravel-sevdesk-api/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/exlo89/laravel-sevdesk-api/actions/workflows/testing.yml)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/netstack-de/laravel-sevdesk-api.svg?style=flat-square)](https://packagist.org/packages/netstack-de/laravel-sevdesk-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/netstack-de/laravel-sevdesk-api.svg?style=flat-square)](https://packagist.org/packages/netstack-de/laravel-sevdesk-api)
+[![Test](https://github.com/NetstackDE/laravel-sevdesk-api/actions/workflows/testing.yml/badge.svg?branch=main)](https://github.com/NetstackDE/laravel-sevdesk-api/actions/workflows/testing.yml)
 
-This package make a connection to the sevdesk api and let you interact with it.
+This package make a connection to the sevdesk api and lets you interact with it.
 
 [Sevdesk API Documentation](https://hilfe.sevdesk.de/knowledge/sevdesk-rest-full-api)
 
@@ -13,7 +13,7 @@ This package make a connection to the sevdesk api and let you interact with it.
 You can install the package via composer:
 
 ```bash
-composer require exlo89/laravel-sevdesk-api
+composer require netstack-de/laravel-sevdesk-api
 ```
 
 Set your api token with
@@ -238,6 +238,7 @@ instead of using the issue tracker.
 
 ## Credits
 
+- [Eric Bortz](https://github.com/Sebbito)
 - [Martin Appelmann](https://github.com/exlo89)
 - [All Contributors](../../contributors)
 
