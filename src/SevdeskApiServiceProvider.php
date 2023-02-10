@@ -5,7 +5,7 @@
  * @copyright 2021 Martin Appelmann
  */
 
-namespace Exlo89\LaravelSevdeskApi;
+namespace NetstackDE\LaravelSevdeskApi;
 
 use Illuminate\Support\ServiceProvider;
 

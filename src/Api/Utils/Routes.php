@@ -5,7 +5,7 @@
  * @copyright 2021 Martin Appelmann
  */
 
-namespace Exlo89\LaravelSevdeskApi\Api\Utils;
+namespace NetstackDE\LaravelSevdeskApi\Api\Utils;
 
 class Routes
 {

@@ -33,12 +33,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Exlo89\\LaravelSevdeskApi\\": "src"
+            "NetstackDE\\LaravelSevdeskApi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Exlo89\\LaravelSevdeskApi\\Tests\\": "tests"
+            "NetstackDE\\LaravelSevdeskApi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Exlo89\\LaravelSevdeskApi\\SevdeskApiServiceProvider"
+                "NetstackDE\\LaravelSevdeskApi\\SevdeskApiServiceProvider"
             ],
             "aliases": {
-                "SevdeskApi": "Exlo89\\LaravelSevdeskApi\\Facades\\SevdeskApi"
+                "SevdeskApi": "NetstackDE\\LaravelSevdeskApi\\Facades\\SevdeskApi"
             }
         }
     }

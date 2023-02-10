@@ -5,7 +5,7 @@
  * @copyright 2021 Martin Appelmann
  */
 
-namespace Exlo89\LaravelSevdeskApi\Facades;
+namespace NetstackDE\LaravelSevdeskApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

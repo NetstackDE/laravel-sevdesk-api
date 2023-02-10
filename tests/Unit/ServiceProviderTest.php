@@ -1,15 +1,15 @@
 <?php
 
-namespace Exlo89\LaravelSevdeskApi\Tests\Unit;
+namespace NetstackDE\LaravelSevdeskApi\Tests\Unit;
 
-use Exlo89\LaravelSevdeskApi\Tests\TestCase;
+use NetstackDE\LaravelSevdeskApi\Tests\TestCase;
 
 class ServiceProviderTest extends TestCase
 {
     public function test_publish_config()
     {
         $this->artisan('vendor:publish', [
-            '--provider' => 'Exlo89\LaravelSevdeskApi\SevdeskApiServiceProvider',
+            '--provider' => 'NetstackDE\LaravelSevdeskApi\SevdeskApiServiceProvider',
             '--tag'=>'config'
         ]);
 

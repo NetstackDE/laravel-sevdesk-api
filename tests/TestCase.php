@@ -1,8 +1,8 @@
 <?php
 
-namespace Exlo89\LaravelSevdeskApi\Tests;
+namespace NetstackDE\LaravelSevdeskApi\Tests;
 
-use Exlo89\LaravelSevdeskApi\SevdeskApiServiceProvider;
+use NetstackDE\LaravelSevdeskApi\SevdeskApiServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase

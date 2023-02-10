@@ -1,6 +1,6 @@
 <?php
 
-namespace Exlo89\LaravelSevdeskApi\Models;
+namespace NetstackDE\LaravelSevdeskApi\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

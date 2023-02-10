@@ -25,7 +25,7 @@ SEVDESK_API_TOKEN=xxxxxxxx
 Optionally you can publish the config file with:
 
 ```bash
-php artisan vendor:publish --provider="Exlo89\LaravelSevdeskApi\SevdeskApiServiceProvider" --tag="config"
+php artisan vendor:publish --provider="NetstackDE\LaravelSevdeskApi\SevdeskApiServiceProvider" --tag="config"
 ```
 
 This is the contents of the published config file:

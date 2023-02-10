@@ -5,11 +5,11 @@
  * @copyright 2022 Martin Appelmann
  */
 
-namespace Exlo89\LaravelSevdeskApi\Api;
+namespace NetstackDE\LaravelSevdeskApi\Api;
 
 use Carbon\Carbon;
-use Exlo89\LaravelSevdeskApi\Api\Utils\ApiClient;
-use Exlo89\LaravelSevdeskApi\Api\Utils\Routes;
+use NetstackDE\LaravelSevdeskApi\Api\Utils\ApiClient;
+use NetstackDE\LaravelSevdeskApi\Api\Utils\Routes;
 
 /**
  * Sevdesk Credit Note Api

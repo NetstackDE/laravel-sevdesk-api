@@ -5,7 +5,7 @@
  * @copyright 2021 Martin Appelmann
  */
 
-namespace Exlo89\LaravelSevdeskApi;
+namespace NestackDE\LaravelSevdeskApi;
 
 
 class SevdeskApi
@@ -23,7 +23,7 @@ class SevdeskApi
 
     protected function getApiInstance($method)
     {
-        $class = "\\Exlo89\\LaravelSevdeskApi\\Api\\" . ucwords($method);
+        $class = "\\NetstackDE\\LaravelSevdeskApi\\Api\\" . ucwords($method);
 
         if (class_exists($class)) {
             return new $class();
