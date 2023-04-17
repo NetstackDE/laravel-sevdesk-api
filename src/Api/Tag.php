@@ -1,3 +1,4 @@
+<?php
 /*
  * Tag.php
  * @author Eric Bortz <e.bortz@netstack.de>
