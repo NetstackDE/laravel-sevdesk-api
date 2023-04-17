@@ -33,7 +33,7 @@ class Tag extends ApiClient
     /**
      * Return a single tag.
      *
-     * @param $contryId
+     * @param $tagId
      * @return mixed
      */
     public function get($tagId)
