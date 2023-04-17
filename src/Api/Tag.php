@@ -17,7 +17,7 @@ use Illuminate\Support\Collection;
  * @see https://api.sevdesk.de/#tag/Tag
  */
 
-class StaticCountry extends ApiClient
+class Tag extends ApiClient
 {
     /**
      * Return all tags.
