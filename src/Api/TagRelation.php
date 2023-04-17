@@ -1,6 +1,6 @@
 <?php
 /*
- * Tag.php
+ * TagRelation.php
  * @author Eric Bortz <e.bortz@netstack.de>
  * @copyright 2023 Eric Bortz
  */
@@ -15,30 +15,30 @@ use Illuminate\Support\Collection;
 /**
  * Sevdesk Contact Api
  *
- * @see https://api.sevdesk.de/#tag/Tag
+ * @see https://api.sevdesk.de/#tag/Tag/operation/getTagRelations
  */
 
-class Tag extends ApiClient
+class TagRelation extends ApiClient
 {
     /**
-     * Return all tags.
+     * Return all tag relations.
      *
      * @return mixed
      */
     public function all(int $limit = 1000)
     {
-        return Collection::make($this->_get(Routes::TAG, ['limit' => $limit]));
+        return Collection::make($this->_get(Routes::TAG_RELATION, ['limit' => $limit]));
     }
 
     /**
-     * Return a single tag.
+     * Return a single tag relation.
      *
-     * @param $tagId
+     * @param $tagRelationId
      * @return mixed
      */
-    public function get($tagId)
+    public function get($tagRelationId)
     {
-        return $this->_get(Routes::TAG. '/' . $tagId)[0];
+        return $this->_get(Routes::TAG_RELATION. '/' . $tagRelationId)[0];
     }
 
 }

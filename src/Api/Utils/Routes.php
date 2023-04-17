@@ -13,9 +13,10 @@ class Routes
     const CONTACT = 'Contact';
     const CONTACT_ADDRESS = 'ContactAddress';
     const COMMUNICATION_WAY = 'CommunicationWay';
+    const CREATE_INVOICE = 'Invoice/Factory/saveInvoice';
     const CREDIT_NOTE = 'CreditNote';
     const INVOICE = 'Invoice';
-    const CREATE_INVOICE = 'Invoice/Factory/saveInvoice';
     const STATIC_COUNTRY = 'StaticCountry';
     const TAG = 'Tag';
+    const TAG_RELATION = 'TagRelation';
 }
