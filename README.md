@@ -1,4 +1,4 @@
-# laravel sevdesk api
+# Laravel Sevdesk Api
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/netstack-de/laravel-sevdesk-api.svg?style=flat-square)](https://packagist.org/packages/netstack-de/laravel-sevdesk-api)
 [![Total Downloads](https://img.shields.io/packagist/dt/netstack-de/laravel-sevdesk-api.svg?style=flat-square)](https://packagist.org/packages/netstack-de/laravel-sevdesk-api)
@@ -16,7 +16,7 @@ You can install the package via composer:
 composer require netstack-de/laravel-sevdesk-api
 ```
 
-Set your api token with
+Set your api token in the `.env` file like this:
 
 ```
 SEVDESK_API_TOKEN=xxxxxxxx
@@ -45,17 +45,11 @@ For usage instructions see the [Wiki](https://github.com/NetstackDE/laravel-sevd
 
 ## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see the [Releases Tab](https://github.com/NetstackDE/laravel-sevdesk-api/releases) for more information on what has changed recently.
 
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-### Security
-
-If you discover any security related issues, please email
-[hello@martin-appelmann.de](mailto:hello@martin-appelmann.de?subject=Laravel%20Sevdesk%20Issue)
-instead of using the issue tracker.
 
 ## Credits
 
@@ -65,7 +59,7 @@ instead of using the issue tracker.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+Please see [License File](LICENSE) for more information.
 
 ## Laravel Package Boilerplate
 
